@@ -11,16 +11,24 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap"
+      rel="stylesheet"
+    />
     <title>Coca-Cola</title>
   </head>
   <body>
     <header>
-      <nav class="menu">
-        <div class="linha1">-</div>
-        <div class="linha2">-</div>
-        <div class="linha3">-</div>
-      </nav>
-      <div><h4>Menu</h4></div>
+      <div class="menu">
+        <div class="menu-burguer">
+          <div class="linha1">-</div>
+          <div class="linha2">-</div>
+          <div class="linha3">-</div>
+        </div>
+        <div class="text-header"><p>Menu</p></div>
+      </div>
     </header>
 
     <main>
@@ -30,19 +38,20 @@
           src="img/coca-cola-background.png"
           alt="fundo-coca-cola"
         />
-        <img
-          class="garrafa-coca-cola"
-          src="img/content-image.png"
-          alt="garrafa-coca-cola"
-        />
+        <div>
+          <p class="text-main">Things go better with</p>
+          <img
+            class="garrafa-coca-cola"
+            src="img/content-image.png"
+            alt="garrafa-coca-cola"
+          />
+        </div>
       </div>
     </main>
 
     <footer>
-      <a>
-        <img class="mapa-global" src="img/map-image.png" alt="mapa-global" />
-        <h4>GLOBAL</h4>
-      </a>
+      <img class="mapa-global" src="img/map-image.png" alt="mapa-global" />
+      <p>GLOBAL</p>
     </footer>
   </body>
 </html>
