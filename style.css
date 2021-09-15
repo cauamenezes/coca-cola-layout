@@ -6,53 +6,43 @@
 
 body {
   position: relative;
-  width: 1440px;
-  height: 900px;
+  width: 100vw;
+  height: 100vh;
   background: linear-gradient(180deg, rgba(218, 59, 63, 0) 15.06%, #da3b3f 100%),
     linear-gradient(179.29deg, #cf2425 11.93%, rgba(207, 36, 37, 0) 99.39%);
   mix-blend-mode: normal;
 }
 
 .menu {
-  position: absolute;
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  width: 36px;
-  height: 16px;
-  left: 75px;
-  top: 41px;
+  display: flex;
+  width: 97px;
+  height: 19px;
+  margin-left: 5vw;
+  margin-top: 5vh;
 }
 
-.menu-burguer {
-  position: absolute;
+header img {
   width: 36px;
   height: 16px;
-  left: 75px;
-  top: 41px;
 }
 
 header p {
-  position: absolute;
   width: 41px;
   height: 19px;
-  left: 131px;
-  top: 40px;
   font-family: "Roboto", sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
-  /* identical to box height */
-
   color: #ffffff;
+  margin-left: 20px;
 }
 
-.fundo-coca-cola {
+.background {
+  background-image: url("./img/coca-cola-background.png");
+  background-position: right bottom;
+  background-repeat: no-repeat;
   position: absolute;
   width: 1291px;
   height: 636px;
-  left: 74px;
-  top: 132px;
 }
 
 .garrafa-coca-cola {
@@ -91,13 +81,23 @@ header p {
 footer {
   display: flex;
   flex-direction: column;
+  width: 64px;
+  height: 48px;
   font-family: "Roboto", sans-serif;
   font-size: 12px;
   font-weight: 500;
-  color: #ffffff;
 }
 
 .mapa-global {
   width: 64px;
   height: 34.48px;
+}
+
+footer p {
+  width: 45px;
+  height: 14px;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
 }
