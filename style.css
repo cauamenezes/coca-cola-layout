@@ -31,37 +31,7 @@ body {
   top: 41px;
 }
 
-.linha1 {
-  position: absolute;
-  width: 24px;
-  height: 0px;
-  left: 75px;
-  top: 41px;
-
-  border: 2px solid #ffffff;
-}
-
-.linha2 {
-  position: absolute;
-  width: 24px;
-  height: 0px;
-  left: 75px;
-  top: 57px;
-
-  border: 2px solid #ffffff;
-}
-
-.linha3 {
-  position: absolute;
-  width: 36px;
-  height: 0px;
-  left: 75px;
-  top: 49px;
-
-  border: 2px solid #ffffff;
-}
-
-.text-header {
+header p {
   position: absolute;
   width: 41px;
   height: 19px;
@@ -118,20 +88,16 @@ body {
   top: 72px;
 }
 
-.mapa-global {
-  position: absolute;
-  width: 64px;
-  height: 34.48px;
-  left: 1301px;
-  top: 812px;
+footer {
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  color: #ffffff;
 }
 
-footer p {
-  position: absolute;
-  font-family: "Roboto", sans-serif;
-  font-style: medium;
-  font-size: 12px;
-  color: #ffffff;
-  left: 1313px;
-  top: 850px;
+.mapa-global {
+  width: 64px;
+  height: 34.48px;
 }
