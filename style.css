@@ -69,3 +69,23 @@ footer {
   right: 5vw;
   bottom: 10vh;
 }
+
+@media (max-width: 768px) {
+  .garrafa-coca-cola {
+    width: 40vw;
+    height: 65vh;
+  }
+
+main{
+  background-size: 100vw;
+  margin-top: 8vh;
+  flex-direction: column;
+  gap: 16px;
+}
+
+  main p {
+    width: 100px;
+    font-size: 16px;
+    text-align: center;
+  }
+}
