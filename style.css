@@ -50,6 +50,7 @@ main {
   align-items: center;
   gap: 1vw;
   flex-grow: 8;
+
 }
 
 .garrafa-coca-cola {
@@ -58,6 +59,9 @@ main {
 }
 
 .text-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 212px;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
