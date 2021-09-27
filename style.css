@@ -10,7 +10,7 @@ body {
   height: 100vh;
   background: linear-gradient(180deg, rgba(218, 59, 63, 0) 15.06%, #da3b3f 100%),
     linear-gradient(179.29deg, #cf2425 11.93%, rgba(207, 36, 37, 0) 99.39%);
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 .menu {
@@ -73,7 +73,6 @@ footer {
 
 @media (max-width: 768px) {
   .garrafa-coca-cola {
-    width: 40vw;
     height: 65vh;
   }
 
